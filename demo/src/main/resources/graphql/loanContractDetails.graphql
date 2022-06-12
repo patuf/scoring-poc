@@ -1,0 +1,34 @@
+type Query {
+    loanScore(id: String! = "Spring"): LoanScore
+    project(slug: ID!): Project
+}
+
+"""  """
+type LoanContract {
+
+}
+
+""" A Project in the Spring portfolio """
+type Project {
+    """ Unique string id used in URLs """
+    id: String!
+    """ Project name """
+    date: String!
+    """ URL of the git repository """
+    repositoryUrl: String!
+    """ Current support status """
+    status: ProjectStatus!
+}
+
+enum ProjectStatus {
+    """ Actively supported by the Spring team """
+    ACTIVE
+    """ Supported by the community """
+    COMMUNITY
+    """ Prototype, not officially supported yet  """
+    INCUBATING
+    """ Project being retired, in maintenance mode """
+    ATTIC
+    """ End-Of-Lifed """
+    EOL
+}
