@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cli_stk/cli_stk.iml" filepath="$PROJECT_DIR$/cli_stk/cli_stk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cli_stk/gateway.iml" filepath="$PROJECT_DIR$/cli_stk/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/publicdata_BG/publicdata_BG.iml" filepath="$PROJECT_DIR$/publicdata_BG/publicdata_BG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scoring-poc.iml" filepath="$PROJECT_DIR$/.idea/scoring-poc.iml" />
+    </modules>
+  </component>
+</project>

@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.a4e.rtp.clients</groupId>
+	<artifactId>cli_stk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>demo</name>

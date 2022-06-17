@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway" />
+        <module name="cli_stk" />
+        <module name="publicdata_BG" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cli_stk" target="11" />
+      <module name="demo" target="11" />
+      <module name="gateway" target="11" />
+      <module name="publicdata_BG" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cli_stk" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="publicdata_BG" options="-parameters" />
+    </option>
+  </component>
+</project>

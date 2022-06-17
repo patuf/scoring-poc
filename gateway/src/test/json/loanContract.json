@@ -1,0 +1,16 @@
+{
+  "id": "000001",
+  "dateTime": "2018-01-01T00:00:01",
+  "customerId": "000001",
+  "loanAmount": 150.28,
+  "loanPeriodDays": 30,
+  "loanType": "ToSalary",
+  "applicantDataRaw": {
+    "age": 25,
+    "sex": "M"
+  },
+  "publicDataRaw": {
+    "dateOfIssue": "2017-12-01T09:00:01",
+    "xmlB64": "asdasdsa=="
+  }
+}

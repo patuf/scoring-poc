@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.example</groupId>
-    <artifactId>publicdata</artifactId>
+    <groupId>com.a4e.rtp</groupId>
+    <artifactId>publicdata_BG</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
